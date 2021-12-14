@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
+  <title>Local Journalism Sustainability Act calculator</title>
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
 
@@ -24,7 +24,20 @@
 </head>
 
 <body>
-  <!-- your content here... -->
+	<h2>How many local journalists work in your newsroom?</h2>
+
+	<input type="number" id="num-journos" name="journos" step="1">
+
+	<h2>How much are they paid?</h2>
+
+	<input type="number" id="avg-pay" name="favgpay" placeholder="$50,000">
+
+	<div>
+		<button type="button" id="calculate">Calculate</button>
+	</div>
+
+	<!-- chart here -->
+
   <script src="js/scripts.js"></script>
 </body>
 </html>
